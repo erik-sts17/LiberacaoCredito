@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LiberacaoCredito.Controllers
 {
+    [Route("api-liberacao-credito")]
     public class LiberacaoCreditoController : Controller
     {
         private readonly ILiberacaoCreditoService _liberacaoCreditoService;
