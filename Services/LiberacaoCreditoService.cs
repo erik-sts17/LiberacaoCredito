@@ -1,10 +1,11 @@
 ﻿using Domain.Enums;
+using Domain.Interfaces;
 using Domain.ViewModels.Request;
 using Domain.ViewModels.Response;
 
 namespace Services
 {
-    public class LiberacaoCreditoService
+    public class LiberacaoCreditoService : ILiberacaoCreditoService
     {
         public LiberacaoCreditoResponseViewModel LiberarCredito(LiberacaoCreditoRequestViewModel liberacaoCreditoRequestViewModel)
         {
